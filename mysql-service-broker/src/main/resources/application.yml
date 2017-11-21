@@ -1,0 +1,12 @@
+spring:  
+  datasource:
+    url: jdbc:mysql://localhost/servicebroker
+    username: root
+    password: root
+  jpa:
+    generate-ddl: true
+    
+security:
+  user:
+    name: siva
+    password: siva

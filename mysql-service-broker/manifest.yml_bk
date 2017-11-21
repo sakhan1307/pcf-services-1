@@ -1,0 +1,7 @@
+---
+applications:
+- name: siva-mysql-service-broker
+  memory: 512M
+  host: siva-mysql-service-broker
+  domain: cfapps.io
+  buildpack: java_buildpack
