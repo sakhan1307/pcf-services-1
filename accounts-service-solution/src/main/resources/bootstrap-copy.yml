@@ -1,0 +1,26 @@
+spring:
+  application:
+     name: accounts-service
+
+  jpa:
+    generate-ddl: true
+  cloud:
+    services:
+      registrationMethod: direct
+      
+
+    
+server:
+  port: 0 
+  
+logging:
+  level: 
+    httpclient.wire: DEBUG 
+    
+    
+security:
+  basic:
+    enabled: false
+ 
+ 
+  

@@ -1,0 +1,10 @@
+---
+applications:
+- name: sivaemc
+  memory: 1G
+  host: sivaaccjuly
+  domain: cfapps.io
+  buildpack: java_buildpack
+  path: ./target/as.jar
+  services:
+  - service-registry-siva 
